@@ -1,0 +1,5 @@
+Tarefa - SOI - DOCKER
+http://ip172-18-0-120-c6fuejfqf8u000dukm6g-80.direct.labs.play-with-docker.com/
+
+docker run -d --name Apache2 -v /var/www:/usr/local/apache2/htdocs -p 80:80 --restart=always httpd:latest
+
